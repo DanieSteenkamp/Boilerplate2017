@@ -1,0 +1,41 @@
+.thumbnail-casino-hover {
+	position: relative;
+	.thumbnail-casino-content-prt {
+		display: none;
+		position: absolute;
+		margin: auto;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		.thumbnail-casino-content{
+			display: table-cell;
+			vertical-align: middle;
+			.btn{
+				min-width: 124px;
+			}
+		}
+	}
+	&:hover .thumbnail-casino-content-prt {
+		display: table;
+	}
+}
+
+
+
+.thumbnail {
+	.star-md {
+		padding-left: $star-rating-align;
+	}
+
+	.space-ten {
+		padding: $casino-card-bottom-space;
+	}
+	box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .5);
+	border: $wrapper-border;
+}
+
+.caption {
+	h4 {
+		font-size: 17px;
+	}
+}

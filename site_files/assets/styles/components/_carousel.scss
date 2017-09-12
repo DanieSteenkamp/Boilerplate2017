@@ -1,0 +1,34 @@
+.carousel {
+	.fa-chevron-left {
+		padding-top: 250px;
+	}
+	.fa-chevron-right {
+		padding-top: 250px;
+	}
+
+	.item {
+		.casino-title {
+			font-size: $casino-title-size;
+			&:link {
+				color: $casino-title-color;
+			}
+			&:hover {
+				color: darken($casino-title-color, 10%);
+				text-decoration: $link-hover-decoration;
+			}
+			
+		}
+		.promo {
+			font-size: $promo-text-size;
+		}
+
+		p {
+			color: $carousel-p-color;
+			font-size: $carousel-p-size;
+		}
+
+	}
+}
+
+
+

@@ -1,0 +1,16 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	// Content block thumbnail name
+
+	// Making sure text don't break div structure
+	.btn-block {
+		font-size: 25px;
+	}
+
+	//news list
+	.news-list-wrap{
+		padding: 20px;
+		min-height: auto;
+	}
+}

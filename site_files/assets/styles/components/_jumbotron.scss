@@ -1,0 +1,15 @@
+.jumbotron{
+	h2 {
+		font-size: $jumbotron-title-size;
+	}
+	p {
+		font-size: $jumbotron-p-size;
+	}
+
+	background-color: $jumbotron-bg;
+
+	padding-top: $jumbotron-padding-top;
+	padding-bottom: $jumbotron-padding-bottom;
+	box-shadow: $wrapper-box-shadow;
+	border: $wrapper-border;
+}

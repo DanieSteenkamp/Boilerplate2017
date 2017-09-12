@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../site_files/dist/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../site_files/dist/css/main.min.css">
+    <link rel="stylesheet" href="../site_files/dist/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="navbar-wrapper">
+            <div class="container-fluid">
+
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="../site_files/dist/images/logo.png" /></a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Installation & Overview</a></li>
+                                        <li><a href="#">Working a new Theme</a></li>
+                                        <li><a href="#">Working on an Existing Site</a></li>
+                                        <li><a href="#">Best Practices</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../components.html">Components</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Templates <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        {{#menulist_top}}
+                                        <li>{{{menu}}}</li>
+                                        {{/menulist_top}}
+                                    </ul>
+                                </li>
+                                <li><a href="#">System Tags</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-9 col-md-9 col-sm-12">
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <div class="row">
+
+                        <div class="content-wrap">
+                            <h1>Boilerplate2017 - A Generic Starter Pack for Bulk Ad Manager</h1>
+                            <p>Boilerplate2017 is a starter pack and the core framework to quickly build sites in Bulk Ad Manager without having to build everything from the ground up every time.</p><p>
+                            <strong>Overview:</strong>
+
+                            <ul>
+                                <li>Built on Bootstrap 3 with Font Awesome already included. </li>
+                                <li>The build includes various commonly used components such as sliders, top lists, star ratings, modal windows, accordions etc.. all included for easy reference as a snippet. </li>
+                                <li>This build is unstyled and any new sites should still be styled uniquely; this process however is helped along by using Sass and Gulp to streamline the styling process and keep things tidy and uniform.</li>
+                                <li>All components and layouts are already fully mobile responsive across all device screen sizes. </li>
+                            </ul>
+
+                            <strong>Note:</strong> The Boilerplate2017 build is primarily meant for portal / brand sites and shouldn't be utilized for network sites.
+
+                            <br><br>
+                            </p><p><h2>Getting Started</h2>
+                            <ul>
+
+                                <li><a href="#">Installation, Use and Folder Structure Overview</a></li>
+                                <li><a href="#">Creating new Themes</a></li>
+                                <li><a href="#">Working with Existing Themes</a></li>
+                                <li><a href="#">Best Practices</a></li>
+
+                            </ul>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12">
+
+                <section class="sidebar">
+
+                    <div class="wrap">
+
+                        <section class="recommended">
+
+                            <h4>Recommended Casinos</h4>
+
+                            <div class="row">
+
+                                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-2">
+
+                                    <span class="logo"><a href='a_4_casino_grand_fortune.html' onclick='a_4_casino_grand_fortune(); return false;'><img src='images/5-28.png' /></a></span>
+
+                                </div>
+
+                                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-7">
+
+                                    <span class="title"><a  href='a_4_casino_grand_fortune.html' onclick='a_4_casino_grand_fortune(); return false;' >Casino Grand Fortune</a></span>
+
+                                </div>
+
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+
+                                    <span class="play"><a  href='a_4_casino_grand_fortune.html' onclick='a_4_casino_grand_fortune(); return false;'  class="btn btn-default btn-sm">Play</a></span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="row">
+
+                                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-2">
+
+                                    <span class="logo">{{{image_125x125_30x30}}}</span>
+
+                                </div>
+
+                                <div class="col-lg-7 col-md-7 col-sm-8 col-xs-7">
+
+                                    <span class="title"><a {{{href}}}>{{{name}}}</a></span>
+
+                                </div>
+
+                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+
+                                    <span class="play"><a {{{href}}} class="btn btn-default btn-sm">Play</a></span>
+
+                                </div>
+
+                            </div>
+
+
+                            {{/list_10_sidebar_toplist}}
+
+                        </section>
+
+                    </div>
+
+                    {{#maybe}}
+
+                    <div class="wrap">
+
+                        <h4>Latest News</h4>
+
+                        <ol class="list-unstyled news">
+
+                            {{#menulist_news_1_to_5}}
+                            {{{latest}}}
+
+                            <li>
+
+                                <span class="news-title"><a {{{href}}}>{{{title}}}</a></span>
+                                <span class="news-date">{{{date}}}</span>
+                                <span class="news-description">{{{meta_description}}}</span>
+
+                            </li>
+
+                            {{/menulist_news_1_to_5}}
+
+                        </ol>
+
+                    </div>
+
+                    {{/maybe}}
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="footer-wrap">
+
+            <!--<div class="row">-->
+            <div class="container-fluid footer-links">
+                <div class="container">
+
+                </div>
+            </div>
+            <div class="container-fluid footer-sub">
+                <div class="container">
+                    <p class="pull-right"><a href="#"><i class="fa fa-caret-up" aria-hidden="true"></i> Back to top</a></p>
+                    <p>&copy; 2017 CasinoBonusKing.com.</p>
+                </div>
+            </div>
+            <!--</div>-->
+
+
+        </div>
+
+    </footer>
+
+
+    <script src="../site_files/dist/js/scripts.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // -----------------------------------------------------------------------
+            $.each($('#navbar').find('li'), function() {
+                $(this).toggleClass('active',
+                    window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
+            });
+            // -----------------------------------------------------------------------
+            $('[data-toggle="tooltip"]').tooltip();
+            $('[data-toggle="popover"]').popover();
+            $('.carousel .item:first-child').addClass('active');
+        });
+    </script>
+
+</body>
+</html>

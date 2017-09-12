@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../../site_files/dist/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../site_files/dist/css/main.min.css">
+    <link rel="stylesheet" href="../../site_files/dist/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+
+    </div>
+
+
+
+
+<script src="../../site_files/dist/js/scripts.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        // -----------------------------------------------------------------------
+        $.each($('#navbar').find('li'), function() {
+            $(this).toggleClass('active',
+                window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
+        });
+        // -----------------------------------------------------------------------
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+        $('.carousel .item:first-child').addClass('active');
+    });
+</script>
+
+</body>
+</html>

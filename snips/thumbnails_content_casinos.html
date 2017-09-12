@@ -1,0 +1,28 @@
+<div class="row">
+	{{#list_8}}
+	<div class="col-md-4 col-sm-6">
+		<div class="thumbnail">
+			<div class="thumbnail-casino-hover">
+				<a {{{page}}}><img src="{{{plain_website_screenshot_300x300}}}" alt="" /></a>
+				<div class="thumbnail-casino-content-prt text-center">
+					<div class="thumbnail-casino-content">
+						<div class="space-ten"><a {{{href}}} class="btn btn-primary">Play Now</a></div>
+						<a {{{page}}} class="btn btn-primary">Read Review</a>
+					</div>
+				</div>
+			</div>
+			<div class="caption">
+				<h4 class="pull-right">${{{signup_bonus_amount}}}</h4>
+				<h4><a {{{page}}}>{{{name}}}</a></h4>
+				<p>{{{description}}}</p>
+			</div>
+			<div class="ratings">
+				<p>
+					{{{snip_star_rating_md}}}
+				</p>
+			</div>
+			<div class="space-ten"></div>
+		</div>
+	</div>
+	{{/list_8}}
+</div>

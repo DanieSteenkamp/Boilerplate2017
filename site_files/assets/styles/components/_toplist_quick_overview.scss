@@ -1,0 +1,165 @@
+.toplist-overview {
+  .item-wrap {
+    background-color: gray;
+  }
+  .item-wrap:nth-child(even) {
+    background-color: white;
+  }
+  .heading-wrap {
+    background-color: $toplist-heading-bg;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: $toplist-heading-padding;
+    height: $toplist-heading-height;
+    border: $wrapper-border;
+  }
+
+  .heading {
+    font-size: $toplist-heading-size;
+    font-weight: $toplist-heading-weight;
+    color: $toplist-heading-color;
+    text-align: center;
+    height: 72px;
+  }
+  .logo {
+    display: block;
+    width: 100%;
+  }
+
+  .rating-outer {
+    font-weight: 600;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .button {
+    .btn {
+      font-size: 11px;
+    }
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: $toplist-button-padding;
+  }
+  .highlights {
+    font-size: 11px;
+    display: flex;
+    padding-top: 25px;
+  }
+  .active-players {
+    font-size: 11px;
+    display: block;
+    padding-top: 25px;
+  }
+  .cashout {
+    font-size: 11px;
+    display: block;
+    padding-top: 25px;
+  }
+  .bonus {
+    font-size: 11px;
+    display: block;
+    padding-top: 25px;
+  }
+
+  .cell {
+    border: $wrapper-border;
+    height: 72px;
+  }
+  .fa {
+    font-size: 13px;
+  }
+  .terms {
+    height: 50px;
+    background-color: $toplist-heading-bg;
+    a {
+      float: right;
+      padding:20px;
+      font-size: 11px;
+    }
+  }
+}
+
+.toplist-games-featured {
+  .table-wrapper {
+    padding: 0;
+  }
+
+  .heading-wrap {
+    background-color: $toplist-heading-bg;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0 10px 0;
+  }
+  .item-wrap {
+    background-color: white;
+    padding: 0;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    .item-row {
+      display: block;
+    }
+    .cell {
+      height: 39px;
+      padding-top: 10px;
+      border: 1px solid;
+    }
+  }
+  .item-wrap:nth-child(odd) {
+    background-color: #eeeeee;
+  }
+  .featured-wrap {
+    background-color: #1b6d85;
+    margin: auto;
+    text-align: center;
+    padding: 6px;
+    width: 100%;
+
+    .title {
+      display: block;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+    }
+    .list {
+      display: block;
+      background-color: #00b3ee;
+      margin: 11px auto 10px;
+      width: 207px;
+      height: auto;
+      border: 1px solid;
+      text-align: left;
+      padding-left: 20px;
+      ul {
+        padding: 40px 0 20px 0;
+
+      }
+
+      li {
+        padding: 5px;
+      }
+    }
+    .link {
+      background-color: yellow;
+      margin-top: 25px;
+      margin-bottom: 19px;
+    }
+
+
+  }
+  .left {
+    float: left;
+  }
+
+
+
+
+}
+
+
+

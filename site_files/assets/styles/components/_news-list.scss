@@ -1,0 +1,81 @@
+
+// margin below news-list
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+/* Portlet */
+.portlet {
+
+	background: $news-list-bg;
+	padding: $news-list-padding;
+	border: $news-list-border;
+	box-shadow: $wrapper-box-shadow;
+	/* Portlet Title */
+	.portlet-title {
+		padding: $news-list-title-padding;
+	  	min-height: $news-list-title-min-height;
+	  	border-bottom: $news-list-title-border-bottom;
+	  	margin-bottom: $news-list-title-margin-bottom;
+	}
+	.caption {
+		float: $news-list-title-float;
+		display: inline-block;
+	}
+	.caption-subject {
+		color: $news-list-title-color;
+		font-size: $news-list-title-size;
+		font-weight: $news-list-title-weight;
+	}
+
+	.portlet-body {
+		font-size: $news-list-body-font-size;
+	}
+}
+
+
+.news-item-date {
+	font-weight: $news-list-date-weight;
+	font-size: $news-list-date-size;
+	margin-bottom: $news-list-date-margin-bottom;
+	display: block;
+}
+
+// these below seem like redundant classes or not called in template
+
+.news-list-wrap {
+	background-color: $gray-lighter;
+	width: 100%;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .3);
+	padding: 30px;
+	margin: 12px 0;
+	min-height: 200px;
+}
+
+
+
+
+.news-list-image {
+	img {
+		height: 140px;
+		width: 220px;
+	}
+}
+.news-list-title {
+	h4 {
+		display: block;
+		font-size: 16px;
+		font-weight: 600;
+	}
+}
+.news-list-date {
+	display: block;
+	clear: left;
+	font-size: 14px;
+	font-weight: 700;
+}
+.news-list-description {
+	display: block;
+	clear: left;
+}

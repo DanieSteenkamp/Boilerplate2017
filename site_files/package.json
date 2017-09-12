@@ -1,0 +1,11 @@
+{
+  "name": "boilerplate2017",
+  "version": "1.0.0",
+  "description": "A Boilerplate Theme for BulkAd consisting of all the components needed to build and deploy sites",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danie Steenkamp",
+  "license": "UNLICENSED"
+}
